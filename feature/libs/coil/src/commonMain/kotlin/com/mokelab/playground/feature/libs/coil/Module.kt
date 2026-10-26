@@ -6,4 +6,5 @@ import org.koin.dsl.module
 val featureModule = module {
     singleScreenFeature("Coil") { back -> CoilScreen(back = back) }
     singleScreenFeature("Coil placeholder / error") { back -> CoilStateScreen(back = back) }
+    singleScreenFeature("Coil cache") { back -> CoilCacheScreen(back = back) }
 }
