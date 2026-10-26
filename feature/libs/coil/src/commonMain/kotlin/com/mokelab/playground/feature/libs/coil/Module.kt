@@ -13,4 +13,5 @@ val featureModule = module {
     singleScreenFeature("Coil ImageLoader (Koin)") { back -> CoilKoinScreen(back = back) }
     singleScreenFeature("Coil transformation") { back -> CoilTransformationScreen(back = back) }
     singleScreenFeature("Coil size / scale") { back -> CoilSizeScreen(back = back) }
+    singleScreenFeature("Coil SVG") { back -> CoilSvgScreen(back = back) }
 }
