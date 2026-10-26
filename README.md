@@ -24,7 +24,7 @@ open iosApp/iosApp.xcodeproj            # iOS（Xcode から Run）
 | `features` の値 | メニュー名 |
 |---|---|
 | `m3:calendar` | M3 Calendar |
-| `libs:coil` | Coil |
+| `libs:coil` | Coil, Coil placeholder / error |
 
 ## feature の追加
 
