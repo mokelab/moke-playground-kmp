@@ -13,6 +13,10 @@ navigation3 = "1.0.0-alpha05"
 koin = "4.0.0"
 kotlin = "2.3.21"
 kotlinx-datetime = "0.7.1"
+# 3.5.0 以降は Kotlin 2.4 / Compose Multiplatform 1.11 以降でビルドされているので、Kotlin を上げるまで 3.4.x に留める
+coil = "3.4.0"
+# 3.6.0 は OkHttp 5.5.0（compileSdk 37 が必要）を引き込むので 3.5.x に留める
+ktor = "3.5.1"
 
 [libraries]
 devportal = { module = "com.mokelab.devportal.kmp:devportal", version.ref = "devportal" }
@@ -29,6 +33,10 @@ navigation3-runtime = { module = "org.jetbrains.androidx.navigation3:navigation3
 koin-core = { module = "io.insert-koin:koin-core", version.ref = "koin" }
 koin-android = { module = "io.insert-koin:koin-android", version.ref = "koin" }
 kotlinx-datetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version.ref = "kotlinx-datetime" }
+coil-compose = { module = "io.coil-kt.coil3:coil-compose", version.ref = "coil" }
+coil-network-ktor3 = { module = "io.coil-kt.coil3:coil-network-ktor3", version.ref = "coil" }
+ktor-client-okhttp = { module = "io.ktor:ktor-client-okhttp", version.ref = "ktor" }
+ktor-client-darwin = { module = "io.ktor:ktor-client-darwin", version.ref = "ktor" }
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
 
 # build-logic 用
