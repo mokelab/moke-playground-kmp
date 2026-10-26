@@ -11,4 +11,6 @@ val featureModule = module {
     singleScreenFeature("Coil placeholder / error") { back -> CoilStateScreen(back = back) }
     singleScreenFeature("Coil cache") { back -> CoilCacheScreen(back = back) }
     singleScreenFeature("Coil ImageLoader (Koin)") { back -> CoilKoinScreen(back = back) }
+    singleScreenFeature("Coil transformation") { back -> CoilTransformationScreen(back = back) }
+    singleScreenFeature("Coil size / scale") { back -> CoilSizeScreen(back = back) }
 }
