@@ -12,6 +12,8 @@ kotlin {
         }
         androidMain.dependencies {
             implementation(libs.ktor.client.okhttp)
+            // Android 専用（aar しか無い）。iOS は自作の Decoder を使う
+            implementation(libs.coil.gif)
         }
         iosMain.dependencies {
             implementation(libs.ktor.client.darwin)
